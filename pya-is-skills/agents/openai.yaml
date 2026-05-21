@@ -1,0 +1,4 @@
+interface:
+  display_name: "PYA IS SKILLS"
+  short_description: "Guide program design from requirements to implementation."
+  default_prompt: "Use $pya-is-skills to design a clear program architecture and implementation plan."
