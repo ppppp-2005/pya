@@ -1,0 +1,4 @@
+interface:
+  display_name: "毕业答辩准备"
+  short_description: "生成答辩 PPT 大纲、讲稿、演示流程和问答。"
+  default_prompt: "使用 thesis-defense 为我的软件系统毕业设计生成答辩 PPT 大纲、讲稿和常见问答。"

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Java/Spring 开发"
+  short_description: "设计和检查 Spring Boot 分层、DTO、事务、异常、权限和测试。"
+  default_prompt: "使用 language-java 帮我开发或完善这个 Java/Spring Boot 系统，关注分层、数据库、接口和异常处理。"

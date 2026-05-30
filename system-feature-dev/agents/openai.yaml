@@ -1,0 +1,4 @@
+interface:
+  display_name: "系统功能开发"
+  short_description: "按需求、架构、实现、测试、总结 7 阶段开发系统功能。"
+  default_prompt: "使用 system-feature-dev 工作流开发这个系统功能，先分析需求和架构，再实现并验证。"
