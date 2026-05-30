@@ -2,7 +2,7 @@
 set -euo pipefail
 
 if ! command -v npx >/dev/null 2>&1; then
-  echo "Error: npx is required but not found on PATH." >&2
+  echo "错误：需要 npx，但当前 PATH 中未找到。" >&2
   exit 1
 fi
 

@@ -1,63 +1,63 @@
 ---
 name: pya-is-skills
-description: Program design guidance for turning an idea into a clear software plan. Use when the user is designing a program, application, system, module, algorithm, API, database schema, UI flow, or implementation plan; when requests mention program design, architecture, feature planning, module splitting, flowcharts, pseudocode, technology selection, or starting a coding project.
+description: 程序设计指导技能，用于把一个想法整理成清晰的软件计划。当用户正在设计程序、应用、系统、模块、算法、API、数据库结构、UI 流程或实现方案时使用；当请求提到程序设计、架构、功能规划、模块拆分、流程图、伪代码、技术选型或启动一个编码项目时也使用。
 ---
 
 # PYA IS SKILLS
 
-## Overview
+## 概览
 
-Use this skill to help the user move from a rough programming idea to a practical design that can be built. Keep the response in the user's language, and prefer concise Chinese explanations when the user writes in Chinese.
+使用这个技能帮助用户从粗略的编程想法走向可以实际构建的设计方案。回答时使用用户的语言；当用户使用中文时，优先给出简洁清楚的中文说明。
 
-## Workflow
+## 工作流程
 
-1. Clarify the goal only when necessary.
-   - Identify the program's users, main purpose, input, output, platform, and constraints.
-   - Ask at most three focused questions if missing information would change the design.
-   - Make reasonable assumptions for simple or early-stage ideas.
+1. 只在必要时澄清目标。
+   - 识别程序的用户、主要目的、输入、输出、运行平台和约束。
+   - 如果缺失信息会改变设计方向，最多提出三个聚焦的问题。
+   - 对简单或早期想法做出合理假设。
 
-2. Shape the requirements.
-   - Separate core features from optional features.
-   - State user-facing workflows before internal implementation details.
-   - Define success criteria such as expected behavior, performance needs, security needs, and deployment target.
+2. 整理需求。
+   - 区分核心功能和可选功能。
+   - 先描述面向用户的工作流，再描述内部实现细节。
+   - 定义成功标准，例如预期行为、性能要求、安全要求和部署目标。
 
-3. Propose the structure.
-   - Choose a simple architecture that fits the scale of the program.
-   - Break the program into modules, components, pages, services, or classes.
-   - Explain each part's responsibility and how data moves between parts.
+3. 提出结构。
+   - 选择符合项目规模的简单架构。
+   - 将程序拆分为模块、组件、页面、服务或类。
+   - 说明每个部分的职责，以及数据如何在各部分之间流动。
 
-4. Design the data and interfaces.
-   - Define key data models, database tables, API endpoints, function signatures, or file formats as needed.
-   - Include validation rules and common error cases.
-   - Keep examples small but concrete.
+4. 设计数据和接口。
+   - 按需定义关键数据模型、数据库表、API 端点、函数签名或文件格式。
+   - 包含校验规则和常见错误情况。
+   - 示例要小而具体。
 
-5. Plan the implementation.
-   - Provide a build order that starts with the smallest working version.
-   - List files or modules to create or modify when working inside a codebase.
-   - Include testing steps for important behavior.
+5. 规划实现。
+   - 给出从最小可运行版本开始的构建顺序。
+   - 在代码库内工作时，列出需要创建或修改的文件和模块。
+   - 为重要行为提供测试步骤。
 
-## Output Style
+## 输出风格
 
-- For a small program, give a short plan with features, structure, and next steps.
-- For a larger system, include sections for requirements, architecture, data model, interfaces, implementation phases, and tests.
-- When the user asks for code, implement the smallest useful version after the design is clear.
-- Avoid over-engineering. Prefer direct solutions, familiar libraries, and the current project's existing style.
+- 小程序给出简短方案，包含功能、结构和下一步。
+- 较大系统包含需求、架构、数据模型、接口、实现阶段和测试等部分。
+- 当用户要求写代码时，在设计清晰后实现最小但有用的版本。
+- 避免过度设计。优先使用直接方案、熟悉的库，以及当前项目已有的风格。
 
-## Design Checklist
+## 设计检查清单
 
-- Purpose: What problem does the program solve?
-- Users: Who uses it, and what do they need to do first?
-- Inputs and outputs: What data enters and leaves the program?
-- State: What must be stored, cached, or remembered?
-- Modules: What are the main parts and responsibilities?
-- Interfaces: How do parts communicate?
-- Errors: What can fail, and how should the program respond?
-- Tests: What behavior proves the design works?
+- 目的：这个程序解决什么问题？
+- 用户：谁会使用它？他们第一步需要做什么？
+- 输入与输出：哪些数据进入程序？哪些结果离开程序？
+- 状态：哪些信息需要存储、缓存或记住？
+- 模块：主要部分是什么？各自负责什么？
+- 接口：各部分如何通信？
+- 错误：哪些地方可能失败？程序应该如何响应？
+- 测试：哪些行为能证明设计可行？
 
-## Example Triggers
+## 示例触发语
 
-- "帮我设计一个程序"
-- "我想做一个系统，应该怎么设计"
-- "帮我规划模块和数据库"
-- "给我这个项目的架构方案"
-- "先不要写代码，先设计实现思路"
+- “帮我设计一个程序”
+- “我想做一个系统，应该怎么设计”
+- “帮我规划模块和数据库”
+- “给我这个项目的架构方案”
+- “先不要写代码，先设计实现思路”

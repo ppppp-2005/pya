@@ -1,19 +1,19 @@
 # pya
 
-`pya` is a lightweight collection of Codex-compatible skills for frontend design, browser automation, program planning, and web application testing.
+`pya` 是一组轻量级、兼容 Codex 的技能集合，覆盖前端设计、浏览器自动化、程序规划和 Web 应用测试。
 
-This repository is intended to keep reusable skill instructions organized, reviewable, and easy to install selectively. Each skill lives in its own directory and should be loaded only when it is relevant to the current task.
+这个仓库用于集中保存可复用的技能说明，让它们便于整理、审查，并且可以按需选择安装。每个技能都放在自己的目录中，只有在和当前任务相关时才应该加载。
 
-## Skills
+## 技能列表
 
-| Skill | Purpose |
+| 技能 | 用途 |
 | --- | --- |
-| `frontend-design` | Guides production-grade frontend interface design with strong visual direction and polished implementation details. |
-| `playwright` | Provides CLI-first browser automation workflows using Playwright for navigation, interaction, screenshots, and UI debugging. |
-| `pya-is-skills` | Helps turn rough software ideas into practical program designs, architectures, modules, workflows, and implementation plans. |
-| `webapp-testing` | Supports local web application testing with Playwright scripts, screenshots, browser logs, and server lifecycle helpers. |
+| `frontend-design` | 指导生产级前端界面设计，强调清晰的视觉方向和精致的实现细节。 |
+| `playwright` | 提供以命令行为主的 Playwright 浏览器自动化流程，用于导航、交互、截图和 UI 调试。 |
+| `pya-is-skills` | 帮助把粗略的软件想法整理成可执行的程序设计、架构、模块、流程和实现计划。 |
+| `webapp-testing` | 支持使用 Playwright 脚本、截图、浏览器日志和服务器生命周期辅助脚本测试本地 Web 应用。 |
 
-## Repository Structure
+## 仓库结构
 
 ```text
 .
@@ -36,28 +36,28 @@ This repository is intended to keep reusable skill instructions organized, revie
 `-- README.md
 ```
 
-## Usage
+## 使用方式
 
-Clone the repository:
+克隆仓库：
 
 ```bash
 git clone https://github.com/ppppp-2005/pya.git
 ```
 
-Then copy or link only the skill directories you want to use into the skill directory supported by your local environment. Review each `SKILL.md` before enabling it so you understand when it should be applied and what assumptions it makes.
+然后只复制或链接你需要使用的技能目录到本地环境支持的技能目录中。启用任何技能前，请先阅读对应的 `SKILL.md`，确认它的适用场景和默认假设。
 
-## Maintenance Guidelines
+## 维护指南
 
-- Keep each skill focused on one clear workflow or domain.
-- Update the relevant `SKILL.md` when behavior, prerequisites, or usage patterns change.
-- Keep examples and helper scripts close to the skill that depends on them.
-- Avoid adding broad instructions that affect unrelated tasks.
-- Review included license and notice files before redistributing skill content.
+- 保持每个技能只聚焦一个清晰的工作流或领域。
+- 当行为、前置条件或使用方式变化时，更新对应的 `SKILL.md`。
+- 将示例和辅助脚本放在依赖它们的技能目录附近。
+- 避免添加会影响无关任务的宽泛指令。
+- 在重新分发技能内容前，检查包含的许可证和声明文件。
 
-## Contributing
+## 贡献
 
-Issues and pull requests are welcome. For larger changes, describe the use case, expected behavior, affected skill directory, and any compatibility concerns.
+欢迎提交 issue 和 pull request。对于较大的修改，请说明使用场景、预期行为、受影响的技能目录以及任何兼容性注意事项。
 
-## License
+## 许可证
 
-Some skill directories include their own license or notice files. Review the files in each directory before reuse or redistribution.
+部分技能目录包含自己的许可证或声明文件。复用或重新分发前，请查看对应目录中的文件。

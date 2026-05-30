@@ -1,14 +1,14 @@
-This skill includes material derived from the Microsoft playwright-cli repository.
+此技能包含来自 Microsoft playwright-cli 仓库的派生材料。
 
-Source:
-- Repository: microsoft/playwright-cli
-- Path: skills/playwright-cli/SKILL.md
+来源：
+- 仓库：microsoft/playwright-cli
+- 路径：skills/playwright-cli/SKILL.md
 
-Copyright (c) Microsoft Corporation.
+版权所有 (c) Microsoft Corporation。
 
-Licensed under the Apache License, Version 2.0.
-See LICENSE.txt in this directory.
+依据 Apache License, Version 2.0 授权。
+请查看本目录中的 LICENSE.txt。
 
-Modifications:
-- Adapted for the Codex skill collection.
-- Added a wrapper script and local reference guides.
+修改内容：
+- 为 Codex 技能集合进行了适配。
+- 添加了包装脚本和本地参考指南。
