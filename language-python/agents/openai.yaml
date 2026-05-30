@@ -1,0 +1,4 @@
+interface:
+  display_name: "Python 系统开发"
+  short_description: "关注包结构、类型、依赖、异常、测试和 FastAPI/Django 工程化。"
+  default_prompt: "使用 language-python 帮我开发或检查这个 Python 系统，关注结构、类型、异常处理和测试。"

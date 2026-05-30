@@ -1,0 +1,4 @@
+interface:
+  display_name: "毕业论文写作"
+  short_description: "写摘要、需求分析、系统设计、实现、测试和总结。"
+  default_prompt: "使用 thesis-writing 帮我写软件系统毕业论文，先给目录，再按章节输出正式中文内容。"

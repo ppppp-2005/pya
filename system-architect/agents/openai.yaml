@@ -1,0 +1,4 @@
+interface:
+  display_name: "系统架构设计"
+  short_description: "设计模块、数据库、API、数据流和实现路线。"
+  default_prompt: "使用 system-architect 设计这个系统，输出架构、模块、数据库、接口和实现计划。"
