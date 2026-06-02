@@ -11,6 +11,7 @@
 | `frontend-design` | 指导生产级前端界面设计，强调清晰的视觉方向和精致的实现细节。 |
 | `playwright` | 提供以命令行为主的 Playwright 浏览器自动化流程，用于导航、交互、截图和 UI 调试。 |
 | `pya-is-skills` | 帮助把粗略的软件想法整理成可执行的程序设计、架构、模块、流程和实现计划。 |
+| `prompt-optimizer` | 优化、重写、比较和迭代系统提示词、用户提示词与图像生成提示词。 |
 | `webapp-testing` | 支持使用 Playwright 脚本、截图、浏览器日志和服务器生命周期辅助脚本测试本地 Web 应用。 |
 | `system-feature-dev` | 按需求确认、代码理解、架构设计、实现、测试和总结 7 阶段开发系统功能。 |
 | `codebase-explorer` | 分析 C++、Java、Python 项目的模块结构、入口、调用链、数据流和关键文件。 |
@@ -63,6 +64,9 @@
 |   |-- references/
 |   `-- scripts/
 |-- pya-is-skills/
+|   |-- SKILL.md
+|   `-- agents/
+|-- prompt-optimizer/
 |   |-- SKILL.md
 |   `-- agents/
 |-- webapp-testing/
