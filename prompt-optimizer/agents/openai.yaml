@@ -1,0 +1,4 @@
+interface:
+  display_name: "Prompt Optimizer 提示词优化"
+  short_description: "优化、重写、比较和迭代系统提示词、用户提示词与图像提示词。"
+  default_prompt: "使用 prompt-optimizer 帮我优化这个提示词，保留原意并给出可测试的改进版本。"
